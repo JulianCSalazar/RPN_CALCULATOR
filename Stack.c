@@ -1,7 +1,8 @@
 /******************************************************************************
 * File: Stack.c
 * Author: Julian Salazar
-* Description:
+* Date: 8/8/18
+* Description: This file holds all stack operating functions.
 ******************************************************************************/
 
 /******************************************************************************
@@ -10,7 +11,9 @@
 #include "Stack.h"
 #include "Arduino.h"
 
-
+/******************************************************************************
+* Variables
+******************************************************************************/
 int i;
 
 /******************************************************************************
@@ -19,7 +22,7 @@ int i;
 /* Function: StackInit()
  * Parameters: Stack address
  * Returns: None
- * Description: This function will initialize a stack given the stacks starting
+ * Description: This function will initialize a stack given the stack
  *	address. If a stack is being used and StackInit is called again it will
  *  reset the stack and return the item index back to -1.
  */

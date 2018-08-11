@@ -18,5 +18,5 @@ recreated the file to the best of my memory based on macros and functions
 I saw from the Stack.c file, but in no way claim ownership of the code.
 All function content provided in all other files other than the Stack.h
 file are original to me. The Stack.h file only provided the desired
-functions, parameters, and return types needed as part of the course
-assignment. 
+functions names, parameters, and return types needed as part of the
+course assignment. 

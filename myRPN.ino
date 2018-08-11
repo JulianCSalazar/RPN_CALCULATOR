@@ -1,7 +1,7 @@
 /*************************************************************************
  * File: myRPN.ino
  * Author: Julian Salazar
- * Date: 8/9/18
+ * Date: 8/8/18
  * Description: This file 
  * Notes: This file and all relating files are derived from an assignment
  *  assigned by Professor Max Dunne for UCSC's CMPE013 course. The
@@ -19,10 +19,11 @@
  }
 
 /*************************************************************************
- * MACROS
+ * DEFINITIONS
  ************************************************************************/
 #define BAUDRATE 9600
 #define MAX_CHARS 60
+#define TIMEOUT 60000 //In milliseconds
 
 /*************************************************************************
  * FUNCTION PROTOTYPES
@@ -42,7 +43,7 @@ int CheckForChars(char *str);
 void setup()
 {
   Serial.begin(BAUDRATE);
-  Serial.setTimeout(60000);
+  Serial.setTimeout(TIMEOUT);
 }
 
 /*
