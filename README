@@ -1,0 +1,22 @@
+This repository holds code to run an RPN calculator using the Arduino IDE.
+The code is primarily practice using a stack data type in C. The code
+provided is replicated from code I made to operate an RPN calculator using
+an UNO32 microcontoller. The original program was made as part of a coding
+assignment provided by the University of California, Santa Cruz's
+CMPE013/L courses held by Professor Max Dunne.
+
+Operation:
+To run this code, place the myRPN.ino file in a folder called myRPN. The
+Stack.c and Stack.h files must be places in a folder called Stack which
+should be placed in Documents/Arduino/libraries to be found as a library
+for the Arduino IDE. When the code in myRPN.ino is run, operation of the
+calculator is done in the Arduino Serial Monitor.
+
+NOTE on the Stack.h file:
+The original Stack.h was provided by the course but was lost. I later
+recreated the file to the best of my memory based on macros and functions
+I saw from the Stack.c file, but in no way claim ownership of the code.
+All function content provided in all other files other than the Stack.h
+file are original to me. The Stack.h file only provided the desired
+functions, parameters, and return types needed as part of the course
+assignment. 
